@@ -6,17 +6,7 @@ import HeartIcon from "../../../assets/heartIcon";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-export const Card = ({
-  secondTitle,
-  secondTitleSize,
-  secondTitleColor,
-  secondTitleMargin,
-  thirdTitle,
-  thirdTitleSize,
-  thirdTitleColor,
-  thirdTitleMargin,
-  marginTop,
-}) => {
+export const Card = ({ secondTitle, thirdTitle, marginTop }) => {
   React.useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
