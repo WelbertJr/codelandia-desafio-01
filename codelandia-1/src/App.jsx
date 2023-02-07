@@ -1,14 +1,11 @@
-import "./styles/global.css";
-import { Title } from "./components/Title";
+import { Header } from "./components/containers/Header/Header";
+import { Main } from "./components/containers/Main/Main";
 function App() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center">
-      <Title
-        color="#FFFFFF"
-        className=""
-        title="Codelândia"
-      />
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   );
 }
 
